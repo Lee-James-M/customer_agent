@@ -1,11 +1,34 @@
-<!DOCTYPE html>
-<html style="height: 100%;">
+<html>
 <head>
-  <title>Your Page</title>
+    <title>Customer Assistant - PVA</title>
+    <style>
+        title {
+            font-size: small;
+        }
+        body {
+            background-color: #0A0E21;
+            margin: 0;
+            padding: 10px; /* Adjust this value as needed for padding */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+        iframe {
+            width: 40%; /* Adjust width as needed */
+            height: 90%; /* Adjust height as needed */
+            border: none;
+            background-color: white;
+            margin-top: 10px;
+            align-items: center;
+        }
+        h1 {
+            color: white;
+        }
+    </style>
 </head>
-<body style="height: 100%; margin: 0; display: flex; justify-content: center; align-items: center; background-color: #0e708b;">
-  <div id="iframe-container" style="width: 80%; height: 100%; background-color: #ffffff; display: flex; justify-content: center; align-items: center;">
-    <iframe src="https://web.powerva.microsoft.com/environments/Default-1b16ab3e-b8f6-4fe3-9f3e-2db7fe549f6a/bots/cre45_theEclipseCustomerAgent/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe>
-  </div>
+<body>
+    <h1>Customer Assistant - PVA</h1>
+    <iframe src="https://web.powerva.microsoft.com/environments/Default-1b16ab3e-b8f6-4fe3-9f3e-2db7fe549f6a/bots/cre45_theEclipseCustomerAgent/webchat?__version__=2"></iframe>
 </body>
 </html>
